@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="dotty-simple"
+		module="dotty-simple_0.21"
+		revision="0.1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom"
+		date="20191227141033"/>
+	<dependencies>
+		<module organisation="ch.epfl.lamp" name="dotty-library_0.21">
+			<revision name="0.21.0-RC1" status="release" pubdate="20191218192324" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD New" url="https://github.com/lampepfl/dotty/blob/master/LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="2811" time="0" location="/Users/Yevgen.Nerush/.ivy2/cache/ch.epfl.lamp/dotty-library_0.21/ivy-0.21.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.21/0.21.0-RC1/dotty-library_0.21-0.21.0-RC1.pom"/>
+				<caller organisation="dotty-simple" name="dotty-simple_0.21" conf="compile-internal, compile, provided, optional" rev="0.21.0-RC1" rev-constraint-default="0.21.0-RC1" rev-constraint-dynamic="0.21.0-RC1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="dotty-library_0.21" type="jar" ext="jar" status="no" details="" size="1375524" time="0" location="/Users/Yevgen.Nerush/.ivy2/cache/ch.epfl.lamp/dotty-library_0.21/jars/dotty-library_0.21-0.21.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.21/0.21.0-RC1/dotty-library_0.21-0.21.0-RC1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.1" status="release" pubdate="20190918105936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/Yevgen.Nerush/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom"/>
+				<caller organisation="ch.epfl.lamp" name="dotty-library_0.21" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.21.0-RC1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5721063" time="0" location="/Users/Yevgen.Nerush/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
