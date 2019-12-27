@@ -1,9 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Member Not Found Error: /Users/Yevgen.Nerush/git/medium/post1/calculator-scala-3/src/main/scala/Main.scala:35:81 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m35 |[0m	[33mdef[0m [36mcalculator[0m[[35mT[0m [35m<: String with Singleton[0m]([33mgiven[0m [36mp[0m: [35mLiteralFunctionD[T][0m): ([36mit[0m: p.It) => p.Ot = p.function.apply[0m
-[0m[[0m[31merror[0m] [0m[0m   |	                                                                               [31m^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |           type It is not a member of SafeCalculator.LiteralFunctionD[T][0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Member Not Found Error: /Users/Yevgen.Nerush/git/medium/post1/calculator-scala-3/src/main/scala/Main.scala:35:90 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m35 |[0m	[33mdef[0m [36mcalculator[0m[[35mT[0m [35m<: String with Singleton[0m]([33mgiven[0m [36mp[0m: [35mLiteralFunctionD[T][0m): ([36mit[0m: p.It) => p.Ot = p.function.apply[0m
-[0m[[0m[31merror[0m] [0m[0m   |	                                                                                        [31m^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |           type Ot is not a member of SafeCalculator.LiteralFunctionD[T][0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
